@@ -1,0 +1,178 @@
+@import "../fonts/ptsans/stylesheet.css";
+@import "../fonts/playdes/stylesheet.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header{
+  font-family: "PT Sans",sans-serif;
+}
+.present{
+  font-family: "PT Sans",sans-serif;
+}
+.text{
+  font-family: "PT Sans",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text__date{
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-1{
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.price{
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #D0D0D0;
+}
+.text-2{
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.text__col{
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-4{
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-3{
+  font-family: PT Sans,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #FFFFFF;
+}
+.catalog{
+  font-family: PT Sans,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.collection{
+  font-family: PT Sans,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.text__footer{
+  position: absolute;
+  width: 151px;
+  height: 32px;
+  left: 405px;
+  top: 3989px;
+
+  font-family: Playfair Display, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.categories{
+  position: absolute;
+  width: 142px;
+  height: 32px;
+  left: 785px;
+  top: 3989px;
+
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.ssy{
+  position: absolute;
+  width: 131px;
+  height: 32px;
+  left: 1165px;
+  top: 3989px;
+
+  font-family: Playfair Display,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.text-6{
+  position: absolute;
+  width: 350px;
+  height: 147px;
+  left: 405px;
+  top: 4061px;
+
+  font-family: PT Sans,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+@import "header";
+@import "main";
+@import "footer";
+

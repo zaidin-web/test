@@ -1,0 +1,97 @@
+.header{
+  .header-contacts{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    text-decoration: none;
+
+    position: absolute;
+    width: 1920px;
+    height: 44px;
+    left: 0;
+    top: 0;
+  }
+  .header-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F0F0F;
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0;
+    top: 44px;
+  }
+  .link{
+    text-decoration: none;
+    color: #869791;
+  }
+  .logo{
+    position: absolute;
+    left: 405px;
+    top: 29px;
+  }
+  .like{
+    position: relative;
+    left: 998px;
+    right: 826px;
+    top: 31px;
+    text-decoration: none;
+    color: #869791;
+  }
+  .my{
+    position: absolute;
+    left: 1134px;
+    top: 31px;
+    text-decoration: none;
+    color: #869791;
+  }
+  .settings{
+    position: absolute;
+    left: 1293px;
+    top: 31px;
+    text-decoration: none;
+    color: #869791;
+  }
+  .basket{
+    position: absolute;
+    left: 1432px;
+    right: 468px;
+    top: 30px;
+    bottom: 30px;
+  }
+  .search{
+    position: absolute;
+    left: 1495px;
+    right: 407px;
+    top: 30px;
+    bottom: 30px;
+  }
+  .call{
+    position: absolute;
+    left: 436px;
+    top: 14px;
+    color: #869791;
+  }
+  .telephone{
+    position: absolute;
+    left: 406px;
+    right: 1500px;
+    top: 15.33px;
+    bottom: 15.33px;
+  }
+  .entrance{
+    position: absolute;
+    left: 1385px;
+    top: 17px;
+    bottom: 17px;
+  }
+  .registration{
+    position: absolute;
+    justify-content: right;
+    left: 1408px;
+    top: 16px;
+    text-decoration: none;
+    color: #869791;
+  }
+
+}

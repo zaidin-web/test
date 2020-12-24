@@ -1,0 +1,11 @@
+.container__footer {
+  display: flex;
+}
+.container__footer .black {
+  display: flex;
+  position: absolute;
+  width: 1920px;
+  height: 400px;
+  left: 0;
+  top: 3909px;
+}

@@ -1,0 +1,75 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #00000056;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+.overlay .popup {
+  position: absolute;
+  max-width: 380px;
+  max-height: 400px;
+  width: 100%;
+  background: #f2f2f2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.overlay .popup__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.overlay .popup__close::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: rotate(45deg) translateY(-50%);
+  width: 22px;
+  height: 2px;
+  background: red;
+}
+.overlay .popup__close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: rotate(-45de) translateY(-50%);
+  width: 22px;
+  height: 2px;
+  background: red;
+}
+.overlay .popup .form-consult {
+  padding: 38px;
+  text-align: center;
+  display: none;
+}
+.overlay .popup .form-consult__title {
+  font-size: 19px;
+  line-height: 19px;
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 13px;
+}
+.overlay .popup .form-consult__subtitle {
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 25px;
+}
+.overlay .popup .form-consult__input {
+  margin: 14px 0;
+  display: block;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+}
